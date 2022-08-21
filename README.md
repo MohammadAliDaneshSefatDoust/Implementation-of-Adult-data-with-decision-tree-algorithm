@@ -1,5 +1,4 @@
-# decision-tree
-Implementation of decision tree algorithm for dataset adult
+# Implementation of decision tree algorithm for dataset adult
 
 https://archive.ics.uci.edu/ml/datasets/adult 
 __________________________________________________________
@@ -21,3 +20,4 @@ The data given under the name Adult is extracted from the UCI collection. Its pu
 
 8) native-country (41 values)
 _____________________________________________________________
+We make a decision tree with the ID3 algorithm and the train data set. To select the best feature in each step, we must use information gain.
