@@ -22,10 +22,10 @@ The data given under the name Adult is extracted from the UCI collection. Its pu
 _____________________________________________________________
 We make a decision tree with the ID3 algorithm and the train data set. To select the best feature in each step, we must use information gain.
 
-In part A, we randomly select the percentage of training data. And we train the tree with it. We repeat this process of random data division for the training process 3 times.
+A) In part A, we randomly select the percentage of training data. And we train the tree with it. We repeat this process of random data division for the training process 3 times.
 
-b) Measuring the effect of the size of the training data: In addition to the random selection of 30% of the training data that we did in the previous step, we also randomly select the values of 40%, 50%, 60%, 70% of the training data.
+B) Measuring the effect of the size of the training data: In addition to the random selection of 30% of the training data that we did in the previous step, we also randomly select the values of 40%, 50%, 60%, 70% of the training data.
 
 Post-pruning: we perform tree pruning by the reduced error pruning method in the following order: Randomly select 70% of the training data as training data and the remaining 25% as validation data. Then, with the help of the training data, we make the decision tree with ID3. And with validation data, we perform pruning.
 
-Finally, this time we select the entire training data as the training data and 25% of the test data randomly as the validation data. Then, with the help of ID3 training data, we build a decision tree and perform pruning with the validation data.
+C) Finally, this time we select the entire training data as the training data and 25% of the test data randomly as the validation data. Then, with the help of ID3 training data, we build a decision tree and perform pruning with the validation data.
